@@ -12,3 +12,4 @@ do
     echo "Client$int Closed"
     let "int++"
 done
+ 
