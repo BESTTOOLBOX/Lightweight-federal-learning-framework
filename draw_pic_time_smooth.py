@@ -9,7 +9,7 @@ record_csvwriter=csv.writer(FaFbRecord)
 record_csvwriter.writerow(["Time_ID","Strategy","Fa","Fb","Ra","Rb","Ra_y","Rb_y","收敛轮次","收敛Loss","收敛Acc","收敛消耗的时间"])
 total_acc=[]
 total_loss=[]
-total_epoch_time=[]
+total_epoch_time=[] 
 cnt_file=0
 strategy=[]
 for file_loc in os.listdir("./csv/"):
